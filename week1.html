@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <h2>Login Form</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Log in</button>
+        </form>
+    </div>
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+    
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    <div class="survey-container">
+        <h2>Survey Form</h2>
+        <form>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="age">Your Age</label>
+            <input type="number" id="age" name="age" required>
+    
+            <label for="gender">Your Gender</label>
+            <select id="gender" name="gender" required>
+                <option value="" disabled selected>Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+    
+            <label></label>
+           
+    
+            <label>Which programming languages do you know?</label>
+            <input type="checkbox" id="lang-java" name="programming-languages[]" value="Java">
+            <label for="lang-java">Java</label>
+            <input type="checkbox" id="lang-python" name="programming-languages[]" value="Python">
+            <label for="lang-python">Python</label>
+            <input type="checkbox" id="lang-javascript" name="programming-languages[]" value="JavaScript">
+            <label for="lang-javascript">JavaScript</label>
+    
+            <label for="comments">Any additional comments?</label>
+            <textarea id="comments" name="comments" rows="5"></textarea>
+    
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
